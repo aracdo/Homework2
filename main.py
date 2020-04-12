@@ -27,6 +27,4 @@ while run<2:
     maxY+=1
     pull = pull2
     pull2=[]
-for i in range(0,y):
-    print(dp[i])
 print('Ответ:'+str(dp[y-1][x-1]))
